@@ -1,6 +1,8 @@
 [package]
 name = "ncurses-lite"
+description = "tiny reimagining of ncurses-rs"
 version = "0.1.0"
+license = "MIT"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
