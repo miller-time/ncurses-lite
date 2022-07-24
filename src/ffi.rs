@@ -11,6 +11,7 @@ extern "C" {
     pub(crate) fn endwin() -> c_int;
     pub(crate) fn curs_set(_: c_int) -> c_int;
     pub(crate) fn newwin(_: c_int, _: c_int, _: c_int, _: c_int) -> WINDOW;
+    pub(crate) fn delwin(_: WINDOW) -> c_int;
     pub(crate) fn waddch(_: WINDOW, _: u32) -> c_int;
     pub(crate) fn waddstr(_: WINDOW, _: *const c_char) -> c_int;
     pub(crate) fn wclear(_: WINDOW) -> c_int;

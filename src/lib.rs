@@ -27,6 +27,10 @@ pub fn newwin(lines: i32, cols: i32, y: i32, x: i32) -> WINDOW {
     unsafe { ffi::newwin(lines, cols, y, x) }
 }
 
+pub fn delwin(w: WINDOW) -> i32 {
+    unsafe { ffi::delwin(w) }
+}
+
 pub fn waddch(w: WINDOW, ch: u32) -> i32 {
     unsafe { ffi::waddch(w, ch) }
 }
