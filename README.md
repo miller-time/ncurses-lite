@@ -68,6 +68,7 @@ The following functions are implemented:
 * `endwin`
 * `curs_set`
 * `newwin`
+* `delwin`
 * `waddch`
 * `waddstr`
 * `wclear`
