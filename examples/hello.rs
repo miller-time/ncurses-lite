@@ -11,12 +11,14 @@ fn main() {
     waddstr(w, "Hello");
     waddch(w, '\n' as u32);
     waddstr(w, "World!");
+    wrefresh(w);
 
     thread::sleep(time::Duration::from_millis(3000));
 
     wclear(w);
 
     waddstr(w, "Okay, bye now!");
+    wrefresh(w);
 
     thread::sleep(time::Duration::from_millis(3000));
 
