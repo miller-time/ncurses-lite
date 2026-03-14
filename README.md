@@ -1,5 +1,13 @@
 # ncurses-lite
 
+[![Crates.io][crates-badge]][crates]
+[![Docs.rs][docs-badge]][docs]
+
+[crates-badge]: https://img.shields.io/crates/v/ncurses-lite
+[crates]: https://crates.io/crates/ncurses-lite
+[docs-badge]: https://docs.rs/ncurses-lite/badge.svg
+[docs]: https://docs.rs/ncurses-lite/
+
 This is a light (microscopic) reimagining of [`ncurses-rs`][ncurses-rs].
 
 After trying to use `ncurses-rs` in [`rust-warrior`][rust-warrior], and
