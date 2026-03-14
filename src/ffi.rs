@@ -6,7 +6,7 @@ use libc::{c_char, c_int};
 pub type WINDOW = *mut i8;
 
 #[link(name = "ncurses")]
-extern "C" {
+unsafe extern "C" {
     pub(crate) fn initscr() -> WINDOW;
     pub(crate) fn endwin() -> c_int;
     pub(crate) fn curs_set(_: c_int) -> c_int;
